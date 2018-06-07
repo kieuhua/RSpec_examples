@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe "values/new", type: :view do
   before(:each) do
     assign(:value, Value.new(
-      :value => "",
       :value => ""
     ))
   end
@@ -12,9 +11,6 @@ RSpec.describe "values/new", type: :view do
     render
 
     assert_select "form[action=?][method=?]", values_path, "post" do
-
-      assert_select "input[name=?]", "value[value]"
-
       assert_select "input[name=?]", "value[value]"
     end
   end

@@ -62,7 +62,6 @@ class ValuesController < ApplicationController
     end
   end
  
- private
   def balance
       values = Value.all
       values_a = []
@@ -72,6 +71,7 @@ class ValuesController < ApplicationController
       @balance = values_a.reduce(:+)
    end
 
+private
     # Use callbacks to share common setup or constraints between actions.
     def set_value
       @value = Value.find(params[:id])
