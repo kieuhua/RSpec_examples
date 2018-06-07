@@ -1,24 +1,8 @@
-# README
+# RSpec Example Site
+##### The purpose of this website is for testing RSpec, Cucumber, and Capybara example tests.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You can go to the list of values to be tested by click the 'Values' link.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+Values
+```
