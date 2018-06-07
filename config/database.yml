@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rspec_example_development
+  pool: 5
+  username: 'vendor_services'
+  password: 'ronan2017'
+  min_messages: WARNING
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rspec_example_test
+  pool: 5
+  username: 'vendor_services'
+  password: 'ronan2017'
+  min_messages: WARNING
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rspec_example_production
+  pool: 5
+  username: 'vendor_services'
+  password:
+  min_messages: WARNING
+
