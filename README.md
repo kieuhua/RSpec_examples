@@ -28,7 +28,7 @@ spec/views/values/index.html.erb_spec.rb
 ```
 You can download this repository, build and run the tests
 ```
-https://github.com/kieuhua/RSpec_examples.git
+https://github.com/kieuhua/RSpec_examples
 ```
 
 All tests are passed, and this is the output of rspec run:
