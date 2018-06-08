@@ -2,7 +2,7 @@
 These are RSpec example tests for the balance page Ruby on Rails app.
 
 The link of the balance page app and its output: 
-[balance page agg](https://desolate-cove-74830.herokuapp.com/values)
+[balance page app](https://desolate-cove-74830.herokuapp.com/values)
 
 ##### Values
 - Value 1	$566.27	
@@ -27,6 +27,9 @@ The link of the balance page app and its output:
 spec/views/values/index.html.erb_spec.rb
 ```
 You can download this repository, build and run the tests
+```
+https://github.com/kieuhua/RSpec_examples.git
+```
 
 All tests are passed, and this is the output of rspec run:
 ```
